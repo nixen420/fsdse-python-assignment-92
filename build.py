@@ -1,8 +1,9 @@
 import pandas as pd
 import numpy as np
-
+data={}
+index=[]
 
 def solution(data, index):
-    """
-    Enter your code here
-    """
+    df=pd.DataFrame(data,index)
+    return df
+solution(data,index)
